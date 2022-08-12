@@ -3,8 +3,10 @@
 /dist/
 /bazel-out
 /integration/bazel/bazel-*
+/.angular/cache
 *.log
 node_modules
+*.pack
 
 # CircleCI temporary file for cache key computation.
 # See `save_month_to_file` in `.circleci/config.yml`.
